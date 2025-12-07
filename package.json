@@ -1,0 +1,21 @@
+{
+  "name": "kafka",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "script": "tsc -b && node dist/index.js",
+    "script2": "tsc -b && node dist/produser.js",
+    "script3": "tsc -b && node dist/comsumer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.12.1",
+  "dependencies": {
+    "kafkajs": "^2.2.4",
+    "typescript": "^5.9.2"
+  }
+}
